@@ -7,6 +7,7 @@ void merge(int *arr1, int size1, int *arr2, int size2, int *ans)
         if(arr1[i]<arr2[j])
         {
             ans[k]=arr1[i];
+            
             i++;
             k++;
         }
